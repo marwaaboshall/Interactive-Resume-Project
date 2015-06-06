@@ -171,7 +171,7 @@ function initializeMap() {
     // hmmmm, I wonder what this is about...
     google.maps.event.addListener(marker, 'click', function() {
       // your code goes here!
-          infowindow.open(map, marker);
+          infoWindow.open(map, marker);
 
     });
 
